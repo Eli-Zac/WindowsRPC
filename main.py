@@ -109,8 +109,6 @@ def setup_tray():
 def run():
     # Start tray icon
     setup_tray()
-
-    # Start updating Discord RPC
     update_rpc()
 
 if __name__ == "__main__":
