@@ -26,7 +26,7 @@ def connect_rpc():
 rpc = connect_rpc()
 
 # Windows logo (must be uploaded as an asset in your Discord Developer Portal)
-LARGE_IMAGE_KEY = "https://i.imgur.com/MX5mtCn_d.webp?maxwidth=760&fidelity=grand"  # Make sure this matches the key from the portal
+LARGE_IMAGE_KEY = "https://raw.githubusercontent.com/Eli-Zac/WindowsRPC/refs/heads/main/resources/icon.png"  # Make sure this matches the key from the portal
 
 def get_system_stats():
     """ Get RAM usage, active window title, and uptime """
