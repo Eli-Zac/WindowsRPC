@@ -98,7 +98,7 @@ def quit_action(icon, item):
 # Function to set up the system tray
 def setup_tray():
     icon = pystray.Icon("Discord RPC Tray", create_image(), title="WindowsRPC++", menu=(
-        (item("Quit", quit_action),)  # Notice the trailing comma to make it a tuple
+        (item("Quit", quit_action),)
     ))
     # Start the tray icon in a separate thread
     icon_thread = threading.Thread(target=icon.run)
